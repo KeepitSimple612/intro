@@ -90,11 +90,7 @@ const Portfolio = () => {
 
             <div className="col s12 m6 offset-m3">
               <div className="card-panel grey lighten-4 grey-text text-darken-4 z-depth-0">
-                <form
-                  onSubmit={handleSubmit}
-                  data-netlify="true"
-                  data-netlify-recaptcha="true"
-                >
+                <form onSubmit={handleSubmit}>
                   <div className="input-field">
                     <i className="material-icons prefix">account_circle</i>
                     <input
@@ -156,7 +152,6 @@ const Portfolio = () => {
                     ></textarea>
                     <label htmlFor="message">Message</label>
                   </div>
-                  <div data-netlify-recaptcha="true"></div>
                   <button type="submit" className="btn indigo ">
                     Submit
                   </button>
