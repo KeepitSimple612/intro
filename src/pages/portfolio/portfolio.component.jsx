@@ -25,8 +25,8 @@ const Portfolio = () => {
                 </div>
                 <div className="card-content">
                   <p>
-                    This page is my starting point for web development usinge
-                    dirent tools and frameworks including:
+                    This page is my starting point for web development using
+                    different tools and frameworks including:
                   </p>
                   <ul className="left-align">
                     <li>
