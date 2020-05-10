@@ -6,12 +6,6 @@ import Background from "../../img/background.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./portfolio.styles.css";
 
-const encode = (data) => {
-  return Object.keys(data)
-    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&");
-};
-
 const Portfolio = () => {
   const [inputFields, setInputFields] = useState({
     name: "",
@@ -22,6 +16,14 @@ const Portfolio = () => {
   });
 
   const { name, subject, email, phone, message } = inputFields;
+
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+      )
+      .join("&");
+  };
 
   const handleSubmit = (event) => {
     event.preventDefault();
