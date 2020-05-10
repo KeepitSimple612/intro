@@ -1,0 +1,43 @@
+.portfolio-navbar {
+  background: url("../../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 64px;
+  color: #fff;
+}
+
+/* label color */
+.input-field label {
+  color: #9fa8da !important;
+}
+/* label focus color */
+.input-field input[type="text"]:focus + label {
+  color: #9fa8da !important;
+}
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid #9fa8da !important;
+  box-shadow: 0 1px 0 0 #9fa8da !important;
+}
+/* label focus color */
+.input-field input[type="email"]:focus + label {
+  color: #9fa8da !important;
+}
+/* label underline focus color */
+.input-field input[type="email"]:focus {
+  border-bottom: 1px solid #9fa8da !important;
+  box-shadow: 0 1px 0 0 #9fa8da !important;
+}
+.input-field textarea:focus {
+  border-bottom: 1px solid #9fa8da !important;
+  box-shadow: 0 1px 0 0 #9fa8da !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #9fa8da !important;
+}
+@media (max-width: 600px) {
+  .portfolio-navbar {
+    min-height: 56px;
+  }
+}

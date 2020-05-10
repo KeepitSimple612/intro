@@ -1,0 +1,36 @@
+.landing {
+  background: url("../../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+}
+
+.icons {
+  color: #7986cb;
+}
+
+.creative-text {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.creative-title {
+  height: 50px;
+}
+
+@media (max-width: 600px) {
+  .landing {
+    min-height: 400px;
+  }
+  .showcase {
+    padding-top: 50px;
+  }
+  .creative-step {
+    margin-bottom: 20px;
+    border-bottom: #7986cb 2px dashed;
+  }
+  .backend {
+    margin-top: 18px;
+  }
+}
